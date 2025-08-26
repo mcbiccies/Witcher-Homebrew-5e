@@ -1,0 +1,35 @@
+{
+  "id": "the-witcher-homebrew-class", 
+  "title": "The Witcher - Homebrew Class",
+  "version": "0.1",
+  "manifest": "https://github.com/mcbiccies/the-witcher-homebrew-class/releases/latest/download/module.json",
+  "download": "https://github.com/mcbiccies/the-witcher-homebrew-class/releases/download/1.0.0/the-witcher-homebrew-class.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>A collection of subclasses, signs , features and weapons to create your very own witcher for d&amp;d 5e. Created using the content from /u/johnares93's witcher homebrew on reddit. </p>",
+  "authors": [
+    {
+      "name": "Mcbiccies",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "witcher-homebrew",
+      "label": "The Witcher Homebrew",
+      "path": "packs/witcher-homebrew",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
